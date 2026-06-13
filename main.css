@@ -1,5 +1,5 @@
 header {
-    background-color: dimgray;
+    background-color: lightslategray;
     border-radius: 25px;
     box-shadow: 1.5px 2px 4px 1px #d0aa52;
 }
@@ -14,4 +14,18 @@ header .logo:hover{
     border-radius: 10px;
     width: 100px;
     height: 100px;
+}
+/*ensuite, le menu*/
+header ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+header ul a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    float: left;
 }
