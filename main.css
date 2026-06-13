@@ -1,0 +1,17 @@
+header {
+    background-color: dimgray;
+    border-radius: 25px;
+    box-shadow: 1.5px 2px 4px 1px #d0aa52;
+}
+header .logo{
+    border-radius: 21px;
+    height: 42px;
+    width: 42px;
+    margin: 10px;
+    transition: all 1s ease-in-out;
+}
+header .logo:hover{
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
