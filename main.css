@@ -9,13 +9,12 @@ header {
     height: 42px;
     width: 42px;
     margin: 10px;
-    transition: all 1s ease-in-out;
+    transition: all 1s cubic-bezier(0, -1, 1, -0.75);
 }
 
 .logo img:hover {
     border-radius: 10px;
-    width: 100px;
-    height: 100px;
+    transition: all .1s linear;
 }
 
 /*ensuite, le menu*/
