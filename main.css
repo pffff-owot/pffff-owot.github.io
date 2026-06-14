@@ -35,6 +35,10 @@ header a {
     border-radius: 24px;
 }
 
+header a:not(.logo a) {
+    margin-block: 1px;
+}
+
 header a:hover:not(.logo a) {
     background-color: #677889;
 }
