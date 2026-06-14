@@ -3,29 +3,37 @@ header {
     border-radius: 25px;
     box-shadow: 1.5px 2px 4px 1px #d0aa52;
 }
-header .logo{
+
+.logo img {
     border-radius: 21px;
     height: 42px;
     width: 42px;
     margin: 10px;
     transition: all 1s ease-in-out;
 }
-header .logo:hover{
+
+.logo img:hover {
     border-radius: 10px;
     width: 100px;
     height: 100px;
 }
+
 /*ensuite, le menu*/
-header ul{
+header ul {
     list-style: none;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
 }
-header ul a{
+
+header a {
     color: white;
     text-decoration: none;
     padding: 15px;
     display: block;
     float: left;
+}
+
+header a:hover:not(.logo a){
+    background-color: #677889;
 }
