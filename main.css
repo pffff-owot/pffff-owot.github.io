@@ -32,8 +32,10 @@ header a {
     padding: 15px;
     display: block;
     float: left;
+    transition: background-color 250ms ease-in-out;
+    border-radius: 24px;
 }
 
-header a:hover:not(.logo a){
+header a:hover:not(.logo a) {
     background-color: #677889;
 }
