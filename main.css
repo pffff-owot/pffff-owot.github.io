@@ -39,3 +39,7 @@ header a {
 header a:hover:not(.logo a) {
     background-color: #677889;
 }
+
+.submenu {
+    display: none;
+}
