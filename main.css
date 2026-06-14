@@ -43,3 +43,12 @@ header a:hover:not(.logo a) {
 .submenu {
     display: none;
 }
+
+header li:hover>.submenu {
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    padding: 5px;
+    margin: 2px;
+    z-index: 1;
+}
