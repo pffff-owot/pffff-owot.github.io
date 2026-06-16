@@ -44,13 +44,14 @@ header a {
 }
 
 header a:not(.logo a) {
-    margin-block: 1px;
+    margin-block: 24px;
 }
 
 header a:hover:not(.logo a) {
     background-color: #677889;
 }
 
+/*dont le submenu*/
 .submenu {
     display: none;
 }
