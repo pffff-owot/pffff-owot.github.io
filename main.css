@@ -1,12 +1,15 @@
-body{
-    background-color: rgb(28, 28, 43);
+body {
+    background-color: #141414;
+    color: white;
 }
+
 header {
     background-color: lightslategray;
     border-radius: 25px;
     box-shadow: 1.5px 2px 4px 1px #d0aa52;
-    position: absolute;
-    width: 100%;
+    position: sticky;
+    top: 10px;
+    z-index: 1;
 }
 
 .logo img {
@@ -14,7 +17,7 @@ header {
     height: 42px;
     width: 42px;
     margin: 10px;
-    transition: all 1s cubic-bezier(0, -1, 1, -0.75);
+    transition: border-radius 1s cubic-bezier(0, -1, 1, -0.75);
 }
 
 .logo img:hover {
@@ -53,15 +56,20 @@ header a:hover:not(.logo a) {
 }
 
 header li:hover>.submenu {
-    display: block;
+    display: inline-block;
     position: absolute;
     backdrop-filter: blur(10px);
-    border-radius: 10px;
+    border-radius: 3px;
     background-color: rgba(255, 255, 255, 0.25);
     border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 .submenu>li {
     padding: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.1);;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all .25s ease-in-out;
+}
+
+.submenu li:hover {
+    background-color: rgba(255, 255, 255, 0.35);
 }
