@@ -37,7 +37,7 @@ header ul {
     overflow: hidden;
 }
 
-header a {
+header>ul>li>a {
     color: white;
     text-decoration: none;
     padding: 15px;
@@ -47,11 +47,11 @@ header a {
     border-radius: 24px;
 }
 
-header a:not(.logo a) {
+header>ul>li>a:not(.logo a) {
     margin-top: 24px;
 }
 
-header a:hover:not(.logo a) {
+header>ul>li>a:hover:not(.logo a) {
     background-color: #677889;
 }
 
