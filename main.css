@@ -102,7 +102,7 @@ header li:hover>.submenu {
 
 a {
     color: lightblue;
-    transition: color 1s ease-in-out;
+    transition: color .2s ease-in-out;
 }
 
 a:visited:not(header a) {
