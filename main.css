@@ -99,3 +99,20 @@ header li:hover>.submenu {
 .b {
     left: 200px;
 }
+
+a {
+    color: lightblue;
+    transition: color 1s ease-in-out;
+}
+
+a:visited:not(header a) {
+    color: darkorchid;
+}
+
+a:hover:not(header a) {
+    color: darkorchid;
+}
+
+a:visited:hover:not(header a) {
+    color: lightblue;
+}
