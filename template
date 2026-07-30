@@ -1,43 +1,26 @@
-<!DOCTYPE html>
-<html lang='fr'>
+<header>
+	<ul>
+		<li class="logo"><a href="https://github.com/pffff-owot" title="moi">
+				<img src="https://avatars.githubusercontent.com/u/217770999" alt="logo de pffff-owot">
+			</a>
+		</li>
+		<li class="logo github"><a href="https://github.com/pffff-owot/pffff-owot.github.io/" title="repo github">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="logo de github"><!--Attribution : GitHub Inc., MIT <http://opensource.org/licenses/mit-license.php>, via Wikimedia Commons -->
+			</a>
+		</li>
+		<li><a href="/">Accueil</a></li>
+		<li>
+			<a href="web_projs">Projets webs</a>
+			<ul class="submenu">
+				<li><a href="https://pffff-owot.github.io" target="_blank">site de pffff-owot</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="progs">Autres programmes</a>
+			<!--<ul class="submenu b">
+				submenu vide pour l'instant
+			</ul>-->
+		</li>
 
-<head>
-    <meta charset='utf-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <title>titre</title>
-    <link rel='stylesheet' href='main.css'>
-    <link rel="icon" href="https://avatars.githubusercontent.com/u/217770999">
-</head>
-
-<body>
-    <header>
-        <ul>
-            <li class="logo"><a href="https://github.com/pffff-owot" title="moi">
-                    <img src="https://avatars.githubusercontent.com/u/217770999" alt="logo de pffff-owot">
-                </a>
-            </li>
-            <li class="logo github"><a href="https://github.com/pffff-owot/pffff-owot.github.io/" title="repo github">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="logo de github"><!--Attribution : GitHub Inc., MIT <http://opensource.org/licenses/mit-license.php>, via Wikimedia Commons -->
-                </a>
-            </li>
-            <li><a href="/">Accueil</a></li>
-            <li>
-                <a href="web_projs">Projets webs</a>
-                <ul class="submenu">
-                    <li><a href="https://pffff-owot.github.io" target="_blank">site de pffff-owot</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="progs">Autres programmes</a>
-                <!--<ul class="submenu b">
-                    submenu vide pour l'instant
-                </ul>-->
-            </li>
-
-        </ul>
-    </header>
-    <H1>page</H1>
-    <p>texte</p>
-</body>
-
-</html>
+	</ul>
+</header>
