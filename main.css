@@ -128,3 +128,9 @@ a:hover:not(header a) {
 a:visited:hover:not(header a) {
     color: lightblue;
 }
+
+span.title{
+    text-decoration:underline dotted;
+    text-decoration-color: rgba(255, 255, 255, 0.3);
+    cursor: help;
+}
